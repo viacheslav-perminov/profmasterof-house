@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  outline: none;
+}
+
+:focus {
+  outline: 0;
+}
+picture,
+article,
+aside,
+details,
+figcaption,
+figure,
+header,
+main,
+footer,
+hgroup,
+menu,
+nav,
+section,
+a,
+p {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  outline: none !important;
+  color: inherit;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+ol,
+ul {
+  display: block;
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: none;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  max-width: 100%;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+img {
+  display: block;
+  border: 0;
+  vertical-align: top;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+form,
+button,
+input,
+select,
+textarea {
+  display: block;
+  border: none;
+  border-radius: 0;
+  vertical-align: baseline;
+  line-height: normal;
+  text-transform: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  text-shadow: none;
+  background: transparent;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+b,
+strong,
+small {
+  display: block;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+svg {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+small,
+b,
+i,
+p {
+  display: block;
+  font-weight: inherit;
+}

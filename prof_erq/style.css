@@ -1,0 +1,26 @@
+/*   
+Theme Name: ProfMasterof
+*/
+
+.info > p > strong {
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 40px 0 20px 0;
+}
+.table-card-title th,
+.table-card td,
+.table-card-title thead{
+	border: 1px solid gold;
+    background-color: transparent;
+   
+}
+.table-card-title thead{
+	    background-color: #ffd575;
+    color: #654f1a;
+}
+@media (max-width: 479px) {
+	.connection__item a, .connection__item strong {
+	font-size: 12px;
+}
+}
